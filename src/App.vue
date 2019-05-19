@@ -6,7 +6,6 @@
     <TodoFooter></TodoFooter>
   </div>
 </template>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
 <script>
   import TodoHeader from './components/TodoHeader.vue'
   import TodoInput from './components/TodoInput.vue'
@@ -17,7 +16,7 @@ export default {
       TodoHeader,
       TodoInput,
       TodoList,
-      TodoFooter,
+      TodoFooter
     }
 }
 </script>
